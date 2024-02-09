@@ -66,7 +66,7 @@ CLASS zcl_dynamic_cache IMPLEMENTATION.
 
   METHOD zif_cache~read.
 
-    get_cache_object( value = value )->read( EXPORTING key = key IMPORTING value = value ).
+    get_cache_object( value )->read( EXPORTING key = key IMPORTING value = value ).
 
   ENDMETHOD.
 
